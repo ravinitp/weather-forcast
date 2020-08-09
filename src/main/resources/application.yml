@@ -1,0 +1,14 @@
+server:
+  port : 8080
+spring:
+  profiles:
+    active: "sushant-dev"
+---    
+spring:
+  profiles: "sushant-dev"
+  application:
+    name: sushant-weather-forecast-spring-boot-api
+
+
+weather-url: https://samples.openweathermap.org/data/2.5/forecast?q=London,us&appid=d2929e9483efc82c82c32ee7e02d5
+---    
